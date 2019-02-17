@@ -4,3 +4,4 @@ os: windows
 
 script:
         - bash build_sodium.sh
+
