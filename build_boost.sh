@@ -5,7 +5,7 @@
 wget https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.zip
 
 unzip -qq boost_1_69_0.zip
-ren boost_1_69_0 boost
+mv boost_1_69_0 boost
 
 cd boost
 bootstrap.bat
