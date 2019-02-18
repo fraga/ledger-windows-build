@@ -3,6 +3,6 @@ language: cpp
 os: windows
 
 before_script:
- - pwd
- - sh build_sodium.sh
+ - uname -a
+ - sh build_boost.sh
 
