@@ -2,5 +2,7 @@ language: cpp
 
 os: windows
 
-script: sh build_sodium.sh
+before_script:
+ - pwd
+ - sh build_sodium.sh
 
