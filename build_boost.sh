@@ -9,9 +9,11 @@ echo "unzipping boost"
 unzip -qq boost_1_69_0.zip
 mv boost_1_69_0 boost
 
-echo "building boost"
 cd boost
+echo "bootstraping"
+pwd
 bootstrap.bat
+"building"
 b2.exe link=static runtime-link=static threading=multi --layout=versioned
 cd ..
-
+pwd
