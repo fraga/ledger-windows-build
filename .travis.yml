@@ -3,5 +3,5 @@ language: cpp
 os: windows
 
 script:
-        -./build_sodium.sh
+        bash build_sodium.sh
 
