@@ -11,9 +11,14 @@ mv boost_1_69_0 boost
 
 cd boost
 echo "bootstraping"
-pwd
+
+#begin CMD
+cmd
 bootstrap.bat
 "building"
 b2.exe link=static runtime-link=static threading=multi --layout=versioned
+exit
+#end CMD
+
 cd ..
 pwd
