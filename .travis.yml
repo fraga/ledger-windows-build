@@ -4,5 +4,6 @@ os: windows
 
 before_script:
  - uname -a
- - sh build_boost.sh
+ - powershell
+ - Write-Host "Hellow from powershell"
 
