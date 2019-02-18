@@ -3,5 +3,6 @@ language: cpp
 os: windows
 
 script:
+        uname -a
         ./build_sodium.sh
 
