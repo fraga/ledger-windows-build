@@ -3,7 +3,8 @@ language: cpp
 os: windows
 
 before_script:
- - uname -a
  - powershell
- - Write-Host "Hellow from powershell"
+
+script:
+ - build_boost.ps1
 
