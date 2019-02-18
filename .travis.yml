@@ -2,7 +2,5 @@ language: cpp
 
 os: windows
 
-script:
-        uname -a
-        ./build_sodium.sh
+script: sh build_sodium.sh
 
