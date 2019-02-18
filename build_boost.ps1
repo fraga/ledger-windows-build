@@ -1,5 +1,5 @@
 Write-Host "getting boost"
-wget --quiet https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.zip
+wget 'https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.zip'
 
 Write-Host "unzipping boost"
 unzip -qq boost_1_69_0.zip
